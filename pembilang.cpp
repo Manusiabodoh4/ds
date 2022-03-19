@@ -172,7 +172,7 @@ int main(){
 
   }  
 
-  cout << "\n";
+  cout << "Rupiah \n";
 
   return 0;
 }
