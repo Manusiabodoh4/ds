@@ -20,19 +20,19 @@ void convertIteration(int iteration, string nilaiAwal){
       satuan = 65;
     }else if(satuan == 90){
       satuan = 49;
-      if(puluhan >= 49 && puluhan < 57 || puluhan >= 65 && puluhan < 90){
+      if(puluhan >= 49 && puluhan < 57 || puluhan >= 65 && puluhan < 90 || puluhan == 48){
         puluhan++;
       }else if(puluhan == 57){
         puluhan = 65;        
       }else if(puluhan == 90){
         puluhan = 49;
-        if(ratusan >= 49 && ratusan < 57 || ratusan >= 65 && ratusan < 90){
+        if(ratusan >= 49 && ratusan < 57 || ratusan >= 65 && ratusan < 90 || ratusan == 48){
           ratusan++;          
         }else if(ratusan == 57){
           ratusan = 65;
         }else if(ratusan == 90){
           ratusan = 49;
-          if(ribuan >= 49 && ribuan < 57 || ribuan >= 65 && ribuan < 90){
+          if(ribuan >= 49 && ribuan < 57 || ribuan >= 65 && ribuan < 90 || ribuan == 48){
             ribuan++;
           }else if(ribuan == 57){
             ribuan = 65;
